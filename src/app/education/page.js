@@ -1,19 +1,35 @@
 import data from '@/data/education.json'
+import { Poppins } from "next/font/google";
+import Image from 'next/image';
+
+export const metadata = {
+  title: "Bilal Ahmad's Education | Software Engineer",
+  description: "Discover Bilal Ahmad's educational background and qualifications as a dedicated software engineer, detailing Bachelor's degree in Computer Science.",
+};
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic']
+});
 
 export default function Education() {
 
-  const EducationCard = ({ item }) => {
+  const EducationCard = ({ item, index }) => {
     return (
-      <div className='shadow-lg rounded-lg p-8'>
-        <div className='flex flex-1'>
+      <div className={`rounded-lg p-10 custom-shadow ${poppins.className}`}>
+        <div className={`flex items-center gap-10 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
           <div className='w-1/2'>
-            <img src={item.image} alt={item.institute} className='h-64 mx-auto ' />
+            <img src={item.image} alt={item.institute} className='h-52 mx-auto' />
+            {/* <Image src={item.image} alt={item.institute} className='mx-auto' width={200} height={200} /> */}
           </div>
-          <div className='w-1/2 pl-8'>
-            <h4 className='text-lg font-bold'>{item.level}</h4>
-            <p className='text-sm text-gray-500'>{item.institute}</p>
-            <p className='text-sm text-gray-500'>{item.degree}</p>
-            <p className='text-sm text-gray-500'>{item.year}</p>
+          <div className='w-1/2 px-8'>
+            <h2 className='text-3xl font-medium'>{item.level}</h2>
+            <div className='my-5'>
+              <p className='text-xl text-gray-900 mb-1'>{item.institute}</p>
+              <p className='text-lg text-gray-700 mb-1'>{item.degree}</p>
+              <p className='text-sm text-gray-600 mb-1'>{item.year}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -21,8 +37,8 @@ export default function Education() {
   }
 
   return (
-    <div>
-      <section className='container px-60 mx-auto my-5'>
+    <div className='my-20'>
+      <section className='custom-container'>
         <div className='flex items-center gap-10'>
           <div className='w-1/2'>
             <svg viewBox="0 0 1006 830" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -102,12 +118,12 @@ export default function Education() {
           </div>
         </div>
       </section>
-      <section className='container px-60 mx-auto my-5'>
-        <div className='flex flex-1 flex-col gap-5'>
+      <section className='container px-60 mx-auto my-10'>
+        <div className='flex flex-1 flex-col gap-10'>
           {
             data.map((item, index) => {
               return (
-                <EducationCard key={index} item={item} />  
+                <EducationCard key={index} item={item} index={index} />  
               )
             })
           }
