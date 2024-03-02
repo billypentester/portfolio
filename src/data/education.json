@@ -1,0 +1,51 @@
+    
+[
+    {
+      "level": "Graduation",
+      "institute": "COMSATS University Islamabad",
+      "degree": "BS Computer Science",
+      "year": "2019-2023",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c0/COMSATS_new_logo.jpg"
+    },
+    {
+      "level": "Intermediate",
+      "institute": "Punjab Group of Colleges",
+      "degree": "ICS (Intermediate of Computer Science)",
+      "year": "2017-2019",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://seeklogo.com/images/P/punjab-group-of-colleges-logo-0F6CF800F3-seeklogo.com.png"
+    },
+    {
+      "level": "High School",
+      "institute": "City Public high School",
+      "degree": "Matriculation",
+      "year": "2015-2017",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+    },
+    {
+      "level": "Middle School",
+      "institute": "Shaheen group of Institutions",
+      "degree": "Middle School",
+      "year": "2011-2015",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+    },
+    {
+      "level": "Primary School",
+      "institute": "Modern Public High School",
+      "degree": "Elementary school",
+      "year": "2005-2011",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+    },
+    {
+      "level": "Pre School",
+      "institute": "Joyride",
+      "degree": "play School",
+      "year": "2003-2005",
+      "desc": "Sports, House Captain, Debate Club, Tech Society",
+      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+    }
+]            
