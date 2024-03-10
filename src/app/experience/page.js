@@ -13,7 +13,7 @@ export default function Education() {
 
   const ExperienceCard = ({ item, index }) => {
     return (
-      <div className={`rounded-lg custom-shadow`}>
+      <div key={index} className={`rounded-lg custom-shadow`}>
         <div className={`flex items-center gap-10`}>
           <div className=''>
             <img src={item.logo} alt={item.institute} className='h-72 rounded-s-lg shadow-md' />
