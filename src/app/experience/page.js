@@ -24,9 +24,9 @@ export default function Education() {
                 <span className='text-lg text-gray-700'>{item.endDate}</span>
               </div>
               {
-                item.highlights.map((line)=> {
+                item.highlights.map((line, index)=> {
                   return (
-                    <p>{line}</p>
+                    <p key={index}>{line}</p>
                   )
                 })
               }
