@@ -7,10 +7,6 @@ export const metadata = {
 
 export default function Education() {
 
-  const dateConverter = (date) => {
-    return date
-  }
-
   const ExperienceCard = ({ item, index }) => {
     return (
       <div key={index} className={`rounded-lg custom-shadow`}>
