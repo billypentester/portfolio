@@ -115,9 +115,9 @@ export default function Home() {
         <div className="flex flex-1 items-center">
           <div className="w-1/2">
             <h1 className="text-4xl font-medium text-gray-800 mb-3">Hello,</h1>
-            <h1 className="text-6xl font-medium text-gray-800">I'm <span className="text-blue-500 font-semibold">Bilal</span></h1>
+            <h1 className="text-6xl font-medium text-gray-800">I &apos; m <span className="text-blue-500 font-semibold">Bilal</span></h1>
             <h2 className="text-3xl font-medium text-gray-500 my-5">Software Engineer</h2>
-            <p className="text-xl text-gray-800 my-5">I'm a passionate software developer who loves to build and break things. I'm also a security enthusiast who loves to learn and share knowledge.</p>
+            <p className="text-xl text-gray-800 my-5">I &apos; m a passionate software developer who loves to build and break things. I &apos; m also a security enthusiast who loves to learn and share knowledge.</p>
             <button className="custom-button">Get in touch</button>
           </div>
           <div className="w-1/2">

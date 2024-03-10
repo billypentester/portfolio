@@ -1,0 +1,28 @@
+[
+    {
+        "position": "Software Developer",
+        "organization": "Simplex Technology Solutions",
+        "website": "https://www.simplextech.com/",
+        "startDate": "2019-06-01",
+        "endDate": "2020-06-01",
+        "logo": "https://is4-ssl.mzstatic.com/image/thumb/Purple112/v4/37/b2/00/37b200aa-8df0-6048-c793-a6b1aa7c9373/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/256x256bb.jpg",
+        "highlights": [
+            "Develop, maintain and fix web apps issues and features",
+            "Develop and maintain web apps using React, Redux, Node.js, Express, MongoDB, and MySQL",
+            "Develop and maintain mobile apps using React Native"
+        ]
+    },
+    {
+        "position": "Web Developer",
+        "organization": "Fiverr",
+        "website": "https://www.simplextech.com/",
+        "startDate": "2019-06-01",
+        "endDate": "2020-06-01",
+        "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAkFBMVEUdv3P///8evnRIx4gSwG4Nvm+U1reB1al3z58OvW960qU5wXwAumv//v/L6978//+35tNNxI0Au2cAtmgWwGpGxYii27++59LU7+Hk+O7z//j2//6R1rnM7t7v+Paa3L5eypYauHK66tAuvn5nz6GO17Bnz5uB1ag0voCv4cuQ0q8uxHpEwn/a8OTe7+hy0qG5cr/qAAACkElEQVR4nO3c7VLaQBhA4WTZRZdsjA1QQBogWqxVWu7/7qrTH6V8LEkYeNl4np8OzOzxDdkFHKMIAAAAAAAAAAAAAAAAAFCdimxkjdbO9fs2UrukF3iywSCPhr2vo/HkYZrtE8cjJ73I5qzOh9+KWfwhzdJ4v2ALlc5X88mBqg3pfaCFtr8osvjQ3MIvNPli/L74NGtroXsrqowv0EL1vjXcTCvmBVloVflYvS/IwqdJXOHlF2yhipKHOhMMr9A+zarcQMMtNKrCHh9yoekXNScYWqGbxwePn60otIu6eWEVKl1O2l1oXLfyUS3Mwqicpu0u1N36eWEVulm7C5X5Xus4Gl5hZEaNRhhOobbV3hOmO0IptIsKdXt/GspnbW7u3yk+NpLpaPk87GxLpJdeUV74A7N4tizzgTHSC23syF6RxoUyYX+En0z9e8Wds9JLPI0d+q/RiQv38vzr2K20F3pgZJ59J5psFsiO4GFuvSO8z6UXeDLT87437GrpBZ7syAxvgn8ZHiv80frC9s+QwuujtTabrFt776Xr3DRixY56+qX7v9efvsD08bXb0JvQcd1+2a3wFXovYa+O0PW9p/As0rijZYZ4qcKYQgoppJBCCimkkEIKKaSQQgoppJDCuoXn+qxNqFCv7raMfRXZr+2Hb/jt/QVIFRrjtqy9f+Dd2374P/ntVRbuaP69he15n0nhxVBIIYXyKKSQQnkUUkihPAoppFAehRRSKI9CCimURyGFFMqjkEIK5VFIIYXyKKSQQnkUUkihPAoppFAehRRSKI9CCimURyGFFMr7BIVr7zqXhwuNv3CoruUfEpYvyWErzxys8jwxScrLJQAAAAAAAAAAAAAAAAAAAAAAzu8PHHJPKzEvqrQAAAAASUVORK5CYII=",
+        "highlights": [
+            "Develop, maintain and fix web apps issues and features",
+            "Develop and maintain web apps using React, Redux, Node.js, Express, MongoDB, and MySQL",
+            "Develop and maintain mobile apps using React Native"
+        ]
+    }
+]
