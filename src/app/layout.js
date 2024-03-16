@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import Navbar from '@/components/Navbar'
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Script from 'next/script'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-FMXX3E14RK" strategy="afterInteractive" />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){window.dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FMXX3E14RK');
+        `}
+      </Script>
       <body className={inter.className}>
         <Navbar />
         {children}
