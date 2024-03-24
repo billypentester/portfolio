@@ -17,18 +17,20 @@ export default function Education() {
 
   const EducationCard = ({ item, index }) => {
     return (
-      <div className={`rounded-lg p-10 custom-shadow ${poppins.className}`}>
+      <div className={`rounded-lg custom-shadow ${poppins.className}`}>
         <div className={`flex items-center gap-10 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
           <div className='w-1/2'>
-            <img src={item.image} alt={item.institute} className='h-52 mx-auto' />
+            <img src={item.image} alt={item.institute} className='h-52 mx-auto m-10' />
             {/* <Image src={item.image} alt={item.institute} className='mx-auto' width={200} height={200} /> */}
           </div>
-          <div className='w-1/2 px-8'>
-            <h2 className='text-3xl font-medium'>{item.level}</h2>
-            <div className='my-5'>
-              <p className='text-xl text-gray-900 mb-1'>{item.institute}</p>
-              <p className='text-lg text-gray-700 mb-1'>{item.degree}</p>
-              <p className='text-sm text-gray-600 mb-1'>{item.year}</p>
+          <div className='w-1/2'>
+            <div className='m-10 px-8'>
+              <h2 className='text-3xl font-medium'>{item.level}</h2>
+              <div className='my-4'>
+                <p className='text-xl text-gray-900 mb-1'>{item.institute}</p>
+                <p className='text-lg text-gray-700 mb-1'>{item.degree}</p>
+                <p className='text-sm text-gray-600 mb-1'>{item.year}</p>
+              </div>
             </div>
           </div>
         </div>

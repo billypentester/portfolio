@@ -2,16 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    body {
-        @apply bg-gray-100;
-    }
-}
 
 @layer components {
     .custom-container {
         @apply max-w-7xl mx-auto px-4;
     }
+	.custom-input {
+		@apply p-4 text-light-neutral shadow-md rounded-md focus:outline-1 focus:outline-light-accent focus:outline-offset-2 w-full;
+	}
 	.skills-container {
         @apply max-w-4xl mx-auto px-4;
     }
@@ -19,7 +17,7 @@
         @apply bg-blue-500 text-white font-medium shadow-md py-2 px-5 rounded;
     }
     .custom-shadow {
-        box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
+        box-shadow: 1px 1px 3px 1px cornflowerblue;
     }
 }
 
@@ -150,3 +148,26 @@
 	.hex.hex-3 {
 		background: #80b971;
 	}
+
+	.line {
+		/* position: absolute; */
+		background-color: #000;
+		height: 2px;
+		width: 5%;
+		/* top: -20px; */
+		/* left: 50%; */
+		transform: translate(-50%, -50%) rotate(90deg);
+		z-index: 1;
+	  }
+	  
+	  .dot {
+		/* position: absolute; */
+		width: 10px;
+		height: 10px;
+		background-color: #000;
+		border-radius: 50%;
+		/* top: -50px; */
+		/* left: 50%; */
+		transform: translate(-50%, -50%);
+		z-index: 2;
+	  }

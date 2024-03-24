@@ -26,21 +26,29 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="bg-slate-950">
+    <footer className="bg-light-base dark:bg-dark-base">
       <div className="custom-container">
 
         <div className="py-10">
-          <div className="flex flex-1 justify-center items-center gap-40">
-            <div className="text-white">
-              <h1 className="mb-3">Contact me</h1>
-              <p className="text-gray-400 font-bold text-4xl mb-3">Got a Project?</p>
-              <p className="text-gray-400 font-bold text-4xl">Lets Talk!</p>
+          <h1 className="text-light-secondary my-10 text-5xl font-semibold">Get in Touch</h1>
+          <div className="flex flex-1 justify-center">
+            <div className="w-2/5 pr-5">
+              <div className="flex flex-col gap-5">
+                <p className="text-lg text-dark">Let's have a chat and I'll help your next idea comes to the real world.</p>
+                <p className="text-lg text-dark">Simple friendly talk is never a bad idea :)</p>
+              </div>
             </div>
-            <div className="flex items-center gap-5">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 48 48">
-                <path fill="#4caf50" d="M45,16.2l-5,2.75l-5,4.75L35,40h7c1.657,0,3-1.343,3-3V16.2z"></path><path fill="#1e88e5" d="M3,16.2l3.614,1.71L13,23.7V40H6c-1.657,0-3-1.343-3-3V16.2z"></path><polygon fill="#e53935" points="35,11.2 24,19.45 13,11.2 12,17 13,23.7 24,31.95 35,23.7 36,17"></polygon><path fill="#c62828" d="M3,12.298V16.2l10,7.5V11.2L9.876,8.859C9.132,8.301,8.228,8,7.298,8h0C4.924,8,3,9.924,3,12.298z"></path><path fill="#fbc02d" d="M45,12.298V16.2l-10,7.5V11.2l3.124-2.341C38.868,8.301,39.772,8,40.702,8h0 C43.076,8,45,9.924,45,12.298z"></path>
-              </svg>
-              <h2  className="text-white text-2xl">hi@billypentester.com</h2>
+            <div className="w-3/5">
+              <div className="flex flex-col gap-5">
+                <div className="flex gap-5">
+                  <input className="custom-input" placeholder="Your Name" type="text" />
+                  <input className="custom-input" placeholder="Your Email" type="email" />
+                </div>
+                <textarea maxLength={'250'} rows={'8'} className="resize-none custom-input" placeholder="Your Message"></textarea>
+                <button className="bg-light-secondary shadow-md py-4 px-5 rounded-md text-light text-center hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                  <span className="font-semibold text-md uppercase">Send</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -50,20 +58,20 @@ export default function Footer() {
             {
               socialLinks.map((link, index) => (
                 <a key={index} href={link.url} target="_blank">
-                  <Icons type={link.name} paint="h-10 w-10 text-gray-100"/>
+                  <Icons type={link.name} paint="h-10 w-10 text-primary"/>
                 </a>
               ))
             }
           </div>
         </div>
         
-        <hr className="border-gray-500" />
+        <hr className="border-light-neutral dark:border-dark-neutral" />
         
         <div className="py-5">
           <div className="flex justify-center gap-2">
-            <p className="text-gray-400"> Copyright { new Date().getFullYear()}</p>
-            <p className="text-gray-400">&#x2022;</p>
-            <p className="text-white">Bilal Ahmad</p>
+            <p className="text-dark"> Copyright { new Date().getFullYear()}</p>
+            <p className="text-dark">&#x2022;</p>
+            <p className="text-primary text-lg">Bilal Ahmad</p>
           </div>
         </div>
 
