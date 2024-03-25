@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
         <div className="custom-container">
-            <div className="flex flex-col md:items-center md:justify-between md:flex-row bg-light backdrop-blur-2xl rounded-full my-5 px-3 shadow-lg">
+            <div className="flex flex-col md:items-center md:justify-between md:flex-row bg-base backdrop-blur-2xl rounded-full my-5 px-3 shadow-lg">
                 <div className="flex flex-row items-center justify-between p-4">
                     <Link href="/" className="text-lg font-semibold tracking-widest text-blue-500 uppercase rounded-lg dark-mode:text-white focus:outline-none focus:shadow-outline">{navData.title}</Link>
                     <button className="rounded-lg md:hidden focus:outline-none focus:shadow-outline" onClick={() => setIsOpen(!isOpen)}>

@@ -3,18 +3,35 @@
 @tailwind utilities;
 
 
+@layer base {
+	:root {
+	  --primary: #f9fafb;
+	  --secondary: #10b981;
+	  --accent: #059669;
+	  --neutral: #111827;
+	  --base: #e5e7eb;
+	}
+	:root[data-theme="dark"] {
+		--primary: #111827;
+        --secondary: #10b981;
+        --accent: #34d399;
+        --neutral: #f3f4f6;
+        --base: #1f2937;
+	}
+}
+
 @layer components {
     .custom-container {
         @apply max-w-7xl mx-auto px-4;
     }
 	.custom-input {
-		@apply p-4 text-light-neutral shadow-md rounded-md focus:outline-1 focus:outline-light-accent focus:outline-offset-2 w-full;
+		@apply p-4 text-neutral shadow-md rounded-md focus:outline-1 focus:outline-accent focus:outline-offset-2 w-full;
+	}
+	.custom-button {
+		@apply bg-secondary shadow-md py-4 px-5 rounded-md text-neutral text-center
 	}
 	.skills-container {
         @apply max-w-4xl mx-auto px-4;
-    }
-    .custom-button {
-        @apply bg-blue-500 text-white font-medium shadow-md py-2 px-5 rounded;
     }
     .custom-shadow {
         box-shadow: 1px 1px 3px 1px cornflowerblue;
