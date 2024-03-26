@@ -37,7 +37,7 @@ const BlogCard = ({ item, index }) => {
   return (
     <>
       <StructuredData data={structuredData} />
-      <div className={`rounded-lg p-2 custom-shadow ${poppins.className}`}>
+      <div className={`rounded-lg p-2 shadow-sm shadow-accent bg-base ${poppins.className}`}>
         <div className={`flex items-center gap-10 ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
           <div className='w-2/5'>
             <img src={item.image} alt={item.title} className='h-72 object-cover mx-auto rounded-lg' />
@@ -46,9 +46,9 @@ const BlogCard = ({ item, index }) => {
           <div className='w-3/5 px-5'>
             <h2 className='text-3xl font-medium'>{item.title}</h2>
             <div className='my-5'>
-              <p className='text-sm text-gray-600 mb-1'>{(item.publish.date)}</p>
-              <p className='text-xl text-gray-900 mb-1'>{item.institute}</p>
-              <p className='text-lg text-gray-700 mb-1'>{item.degree}</p>
+              <p className='text-sm text-neutral mb-1'>{(item.publish.date)}</p>
+              <p className='text-xl text-neutral mb-1'>{item.institute}</p>
+              <p className='text-lg text-neutral mb-1'>{item.degree}</p>
             </div>
             <button className='custom-button'>Read More</button>
           </div>

@@ -22,7 +22,7 @@
       "degree": "Matriculation",
       "year": "2015-2017",
       "desc": "Sports, House Captain, Debate Club, Tech Society",
-      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+      "image": null
     },
     {
       "level": "Middle School",
@@ -30,7 +30,7 @@
       "degree": "Middle School",
       "year": "2011-2015",
       "desc": "Sports, House Captain, Debate Club, Tech Society",
-      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+      "image": null
     },
     {
       "level": "Primary School",
@@ -38,7 +38,7 @@
       "degree": "Elementary school",
       "year": "2005-2011",
       "desc": "Sports, House Captain, Debate Club, Tech Society",
-      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+      "image": null
     },
     {
       "level": "Pre School",
@@ -46,6 +46,6 @@
       "degree": "play School",
       "year": "2003-2005",
       "desc": "Sports, House Captain, Debate Club, Tech Society",
-      "image": "https://billypentester.github.io/assets/images/education-page/education.png"
+      "image": null
     }
 ]            

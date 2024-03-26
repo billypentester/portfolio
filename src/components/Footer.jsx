@@ -34,7 +34,7 @@ export default function Footer() {
           <div className="flex flex-1 justify-center">
             <div className="w-2/5 pr-5">
               <div className="flex flex-col gap-5">
-                <p className="text-lg text-neutral">Let's have a chat and I'll help your next idea comes to the real world.</p>
+                <p className="text-lg text-neutral">Let`&apos;`s have a chat and I`&apos;`ll help your next idea comes to the real world.</p>
                 <p className="text-lg text-neutral">Simple friendly talk is never a bad idea :)</p>
               </div>
             </div>
@@ -46,7 +46,7 @@ export default function Footer() {
                 </div>
                 <textarea maxLength={'250'} rows={'8'} className="resize-none custom-input" placeholder="Your Message"></textarea>
                 <button className="custom-button">
-                  <span className="font-semibold text-md uppercase">Send</span>
+                  Send
                 </button>
               </div>
             </div>

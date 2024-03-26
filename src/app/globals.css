@@ -25,16 +25,16 @@
         @apply max-w-7xl mx-auto px-4;
     }
 	.custom-input {
-		@apply p-4 text-neutral shadow-md rounded-md focus:outline-1 focus:outline-accent focus:outline-offset-2 w-full;
+		@apply p-4 bg-primary text-neutral shadow-md rounded-md focus:outline-1 focus:outline-accent focus:outline-offset-2 w-full;
 	}
 	.custom-button {
-		@apply bg-secondary shadow-md py-4 px-5 rounded-md text-neutral text-center
+		@apply bg-secondary shadow-md py-4 px-5 rounded-md text-primary text-center font-semibold uppercase
 	}
 	.skills-container {
         @apply max-w-4xl mx-auto px-4;
     }
     .custom-shadow {
-        box-shadow: 1px 1px 3px 1px cornflowerblue;
+        box-shadow: 1px 1px 3px 1px var(--secondary);
     }
 }
 
