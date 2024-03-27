@@ -13,8 +13,7 @@
     "keen-slider": "^6.8.6",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "vite-plugin-minify": "^1.5.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

@@ -1,6 +1,12 @@
 'use client'
 import Link from 'next/link';
 import { useState } from 'react';
+import { Poppins } from "next/font/google";
+
+const inter = Poppins({ 
+    subsets: ["latin"], 
+    weight: ['400', '500', '600', '700'],
+});
 
 export default function Home() {
 
@@ -33,11 +39,11 @@ export default function Home() {
                         </svg>
                     </button>
                 </div>
-                <nav className={`${isOpen ? 'flex' : 'hidden'} flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}>
+                <nav className={`${isOpen ? 'flex' : 'hidden'} ${inter.className} flex-col flex-grow pb-4 md:pb-0 md:flex md:justify-end md:flex-row`}>
                     {
                         navData.links.map((link, index) => { 
                             return (
-                                <Link key={index} className="px-4 py-3 mt-2 text-sm font-semibold rounded-lg text-neutral  md:mt-0 md:ml-4 hover:text-white hover:rounded-full focus:text-gray-900 hover:bg-accent hover:shadow-sm hover:transition hover:delay-75 hover:ease-in-out focus:outline-none focus:shadow-outline" href={link.url} target={link.isBut ? '_blank' : '_self' } rel="noopener noreferrer">{link.title}</Link>
+                                <Link key={index} className="px-4 py-3 mt-2 font-medium text-md rounded-lg text-neutral md:mt-0 md:ml-4 hover:text-white hover:rounded-full focus:text-gray-900 hover:bg-accent hover:shadow-sm hover:transition hover:delay-75 hover:ease-in-out focus:outline-none focus:shadow-outline" href={link.url} target={link.isBut ? '_blank' : '_self' } rel="noopener noreferrer">{link.title}</Link>
                             )
                         })
                     }

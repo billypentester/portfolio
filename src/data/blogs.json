@@ -5,7 +5,8 @@
         "publish" : {
             "date" : "Oct 28, 2023",
             "publishedBy" : "Level Up Coding"
-        }
+        },
+        "link": "https://levelup.gitconnected.com/ultimate-10-stages-to-master-frontend-development-9b075b904835"
     },
     {
         "title" : "Will cloud-based web apps replace desktop applications?",
@@ -13,7 +14,8 @@
         "publish" : {
             "date" : "Jan 05, 2023",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/will-cloud-based-web-apps-replace-desktop-applications-7a2ebc4f19c9"
     },
     {
         "title" : "Ultimate 10 Stages to Master Backend Development",
@@ -21,7 +23,8 @@
         "publish" : {
             "date" : "Aug 26, 2022",
             "publishedBy" : "Level Up Coding"
-        }
+        },
+        "link": "https://levelup.gitconnected.com/ultimate-10-stages-to-master-backend-development-f6f65f22a327"
     },
     {
         "title" : "The Ultimate Guide to Component Life Cycle Method in React Native",
@@ -29,7 +32,8 @@
         "publish" : {
             "date" : "Oct 27, 2022",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/the-ultimate-guide-to-component-life-cycle-method-in-react-native-16513e0ca549"
     },
     {
         "title" : "The Ultimate Guide to Custom Hooks in React Native",
@@ -37,7 +41,8 @@
         "publish" : {
             "date" : "Oct 26, 2022",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/the-ultimate-guide-to-custom-hooks-in-react-native-945b213a946e"
     },
     {
         "title" : "Web3 js in practical (Part-III)",
@@ -45,7 +50,8 @@
         "publish" : {
             "date" : "Jul 17, 2022",
             "publishedBy" : "CoinsBench"
-        }
+        },
+        "link": "https://coinsbench.com/web3-js-in-practical-part-iii-6ed2080f84b7"
     },
     {
         "title" : "Web3 js in practical (Part-II)",
@@ -53,7 +59,8 @@
         "publish" : {
             "date" : "Jul 17, 2022",
             "publishedBy" : "CoinsBench"
-        }
+        },
+        "link": "https://coinsbench.com/web3-js-in-practical-part-ii-937b035a8c0c"
     },
     {
         "title" : "Web3 js in practical (Part-I)",
@@ -61,7 +68,8 @@
         "publish" : {
             "date" : "Jul 17, 2022",
             "publishedBy" : "CoinsBench"
-        }
+        },
+        "link": "https://coinsbench.com/web3-js-in-practical-part-i-39fbbd65738b"
     },
     {
         "title" : "Predict your personality",
@@ -69,7 +77,8 @@
         "publish" : {
             "date" : "Jun 10, 2022",
             "publishedBy" : "MLearning.ai"
-        }
+        },
+        "link": "https://billypentester.medium.com/predict-your-personality-f2c5d3701dc3"
     },
     {
         "title" : "Complete backend in one command",
@@ -77,7 +86,8 @@
         "publish" : {
             "date" : "May 31, 2022",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/complete-backend-in-one-command-382649334a9b"
     },
     {
         "title" : "How to hide the source code of an HTML web page?",
@@ -85,7 +95,8 @@
         "publish" : {
             "date" : "Dec 25, 2021",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/how-to-hide-the-source-code-of-an-html-web-page-59a3c2e877b4"
     },
     {
         "title" : "Ethics and the IT Professional",
@@ -93,7 +104,8 @@
         "publish" : {
             "date" : "Dec 25, 2021",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/ethics-and-the-it-professional-8b108a4f0ee"
     },
     {
         "title" : "student study material engagement prediction model using weka",
@@ -101,7 +113,8 @@
         "publish" : {
             "date" : "Dec 19, 2021",
             "publishedBy" : "MLearning.ai"
-        }
+        },
+        "link": "https://billypentester.medium.com/student-study-material-engagement-prediction-model-using-weka-bd2a2ee97cd8"
     },
     {
         "title" : "Cyber security essentials",
@@ -109,6 +122,7 @@
         "publish" : {
             "date" : "Oct 14, 2021",
             "publishedBy" : null
-        }
+        },
+        "link": "https://billypentester.medium.com/cyber-security-essentials-ad2bb8e9fce8"
     }
 ]

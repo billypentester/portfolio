@@ -30,6 +30,9 @@
 	.custom-button {
 		@apply bg-secondary shadow-md py-4 px-5 rounded-md text-primary text-center font-semibold uppercase
 	}
+	.custom-button-sm {
+		@apply bg-secondary shadow-md py-2 px-4 rounded-md text-primary text-center font-semibold uppercase
+	}
 	.skills-container {
         @apply max-w-4xl mx-auto px-4;
     }
